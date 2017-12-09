@@ -63,6 +63,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="extraTwoTeamA"
                 android:paddingBottom="8dp"
                 android:text="@string/extra_2" />
 
@@ -72,6 +73,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="extraOneTeamA"
                 android:paddingBottom="8dp"
                 android:text="@string/extra_1" />
 
@@ -81,9 +83,9 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="safetyTeamA"
                 android:paddingBottom="8dp"
                 android:text="@string/safety" />
-
         </LinearLayout>
 
         <View
@@ -127,7 +129,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:onClick="touchdownTeamA"
+                android:onClick="touchdownTeamB"
                 android:text="@string/touchdown" />
 
             <Button
@@ -136,7 +138,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:onClick="fieldGoalTeamA"
+                android:onClick="fieldGoalTeamB"
                 android:paddingBottom="8dp"
                 android:text="@string/field_goal" />
 
@@ -146,6 +148,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="extraTwoTeamB"
                 android:paddingBottom="8dp"
                 android:text="@string/extra_2" />
 
@@ -155,6 +158,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="extraOneTeamB"
                 android:paddingBottom="8dp"
                 android:text="@string/extra_1" />
 
@@ -164,9 +168,9 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:onClick="safetyTeamB"
                 android:paddingBottom="8dp"
                 android:text="@string/safety" />
-
         </LinearLayout>
     </LinearLayout>
 
@@ -176,7 +180,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:onClick="resetScores"
+        android:onClick="resetScore"
         android:text="@string/reset_scores" />
-
 </RelativeLayout>
