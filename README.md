@@ -2,6 +2,8 @@
 A Score Keeping Android App Project build in completetion of the Udacity's _Android Basics: User Input_ Course. 
 In this Project, I have implemented the American Football Scoring System. I followed the scoring system as stated [here](http://www.topendsports.com/sport/gridiron/basics.htm).
 
+![](ScoreKeeper-Screenshot.png)
+
 
 ---
 
